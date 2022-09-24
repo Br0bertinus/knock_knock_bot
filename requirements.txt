@@ -1,1 +1,5 @@
 requests
+nltk
+eng_to_ipa
+cmudict
+syllables

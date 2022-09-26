@@ -11,7 +11,7 @@ class CorpusBuilder():
         self.cmu_words = cmudict.entries()
 
 
-    def build(self):
+    def build(self) -> Corpus:
         corpus = Corpus()
         for cmu_word in self.cmu_words:
             word = cmu_word[0]

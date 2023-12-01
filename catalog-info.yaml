@@ -12,5 +12,5 @@ metadata:
 spec:
   type: bot
   lifecycle: production
-  owner: personal
+  owner: rob
   system: public-websites

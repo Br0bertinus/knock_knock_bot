@@ -8,7 +8,10 @@ metadata:
   links:
     - url: https://github.com/Br0bertinus/knock_knock_bot
       title: knock_knock_bot repo
-      icon: dashboard
+  annotations:
+    jira/project-key: <example-jira-project-key>
+    jira/component: <example-component> # optional, you might skip this value to fetch data for all components
+    jira/token-type: Bearer # optional, used for Activity stream feed. If you are using Basic auth you can skip this.
 spec:
   type: bot
   lifecycle: production

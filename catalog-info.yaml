@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: knock-knock-bot
+  description: generates knock knock jokes and tweets them out
+  tags:
+    - python
+  links:
+    - url: https://github.com/Br0bertinus/knock_knock_bot
+      title: knock_knock_bot repo
+      icon: dashboard
+spec:
+  type: bot
+  lifecycle: production
+  owner: personal
+  system: public-websites
